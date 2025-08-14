@@ -40,7 +40,11 @@
 
              /* 优先级顺序
              id选择器 > 类选择器 > 标签选择器 */
-            
+
+             a{
+                color: #000;
+                text-decoration: none; /* 去掉链接下划线 */
+             }
         </style> 
 
         <!-- <link rel="stylesheet" href="./css/news.css"> -->
@@ -62,7 +66,7 @@
         ../ 上一级目录，../不可以省略
         2、相对路径
         -->
-        <img src="./img/news_logo.png" width="100px"> 新浪政务 > 正文
+        <img src="./img/news_logo.png" width="100px"><a href="https://gov.sina.com.cn/" target="_self">新浪政务</a>  > 正文
         
         <!--
         方式一：行内样式（不推荐）
@@ -73,7 +77,7 @@
         
         <hr>
         <!-- <span class="class1">2023年10月23日 20:00:00 央视网</span> -->
-         <span id="time">2023年10月23日 20:00:00 央视网</span>
+         <span id="time">2023年10月23日 20:00:00 <a href="https://news.cctv.com/2023/03/02/ARTIUCKFf9kE9eXgYE46ugx3230302.shtml">央视网</a> </span>
         <hr>
         <!--
         css样式：
